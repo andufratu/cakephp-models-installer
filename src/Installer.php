@@ -11,7 +11,7 @@ class Installer extends LibraryInstaller {
     }
 
     public function getPackageBasePath(PackageInterface $package) {
-        return 'Model';
+        return 'src/Model';
     }
 
 }
