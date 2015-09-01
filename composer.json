@@ -1,0 +1,24 @@
+{
+    "name": "andufratu/cakephp-models-installer",
+    "description": "Custom installer to handle CakePHP 3.0 models as a different repo",
+    "type": "composer-plugin",
+    "require": {
+        "composer-plugin-api": "1.0.0"
+    },
+    "extra": {
+        "class": "AnduFratu\\CakePhpModelsInstaller\\Plugin"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andu Fratu",
+            "email": "andu@fratu.ro"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AnduFratu\\CakePhpModelsInstaller\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
